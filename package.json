@@ -1,0 +1,23 @@
+{
+  "name": "excel-project",
+  "version": "1.0.0",
+  "description": "Pure JavaScript Excel Application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryant8888/excel-project.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Alexander Poplavskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryant8888/excel-project/issues"
+  },
+  "homepage": "https://github.com/bryant8888/excel-project#readme"
+}
