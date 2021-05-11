@@ -29,7 +29,10 @@ const jsLoaders = () => {
 module.exports = {
     context: path.resolve(__dirname, 'src'),
     mode: 'development',
-    entry: ['@babel/polyfill', './index.js'],
+    // entry: ['@babel/polyfill', './index.js'],
+    entry: {
+        main: ['@babel/polyfill', './index.js'],
+    },
     output: {
         filename: filename('js'),
         path: path.resolve(__dirname, 'dist')
@@ -44,7 +47,7 @@ module.exports = {
     target: isDev ? 'web' : 'browserslist',
     devtool: isDev ? 'source-map' : false,
     devServer: {
-        port: 3000,
+        port: 3200,
         hot: isDev,
         open: true,
     },
