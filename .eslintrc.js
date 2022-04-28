@@ -10,8 +10,14 @@ module.exports = {
     node: true,
     es6: true,
   },
-  extends: ['eslint:recommended', 'google'],
   rules: {
-    semi: 0,
+    'semi': "off",
+    'require-jsdoc': "off",
+    'operator-linebreak': "off",
+    'arrow-parens': "off",
+    'no-debugger': "off",
+    'max-len': "off",
+    'object-curly-spacing': "off",
   },
+  extends: ['eslint:recommended', 'google'],
 }
