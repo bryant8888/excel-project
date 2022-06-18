@@ -18,6 +18,7 @@ module.exports = {
     'no-debugger': "off",
     'max-len': "off",
     'object-curly-spacing': "off",
+    'padded-blocks': "off",
   },
   extends: ['eslint:recommended', 'google'],
 }
